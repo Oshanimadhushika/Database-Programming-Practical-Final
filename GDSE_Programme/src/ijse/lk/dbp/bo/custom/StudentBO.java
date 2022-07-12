@@ -1,11 +1,12 @@
 package ijse.lk.dbp.bo.custom;
 
+import ijse.lk.dbp.bo.SuperBO;
 import ijse.lk.dbp.dto.StudentDTO;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public interface StudentBO {
+public interface StudentBO extends SuperBO {
     public ArrayList<StudentDTO> searchStudents(String enteredText) throws SQLException, ClassNotFoundException;
 
     ArrayList<StudentDTO> getAllStudents() throws SQLException, ClassNotFoundException;

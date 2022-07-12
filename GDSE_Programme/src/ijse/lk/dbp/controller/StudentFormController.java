@@ -1,6 +1,8 @@
 package ijse.lk.dbp.controller;
 
 import com.jfoenix.controls.JFXTextField;
+import ijse.lk.dbp.bo.BOFactory;
+import ijse.lk.dbp.bo.custom.StudentBO;
 import javafx.event.ActionEvent;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
@@ -28,6 +30,11 @@ public class StudentFormController {
     public TableColumn colNic;
     public Button btnAddNewStudent;
     public TextField txtSearch;
+
+    private final StudentBO studentBO = (StudentBO) BOFactory.getBoFactory().getBO(BOFactory.BOTypes.STUDENT);
+
+
+
 
     public void SaveStudentOnAction(ActionEvent actionEvent) {
     }

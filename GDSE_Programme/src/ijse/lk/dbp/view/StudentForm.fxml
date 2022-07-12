@@ -38,7 +38,7 @@
             <Font name="Impact" size="20.0" />
          </font>
       </Button>
-      <JFXTextField fx:id="txtStuId" focusColor="#f5f6f8" labelFloat="true" layoutX="84.0" layoutY="178.0" prefHeight="25.0" prefWidth="179.0" promptText="STUDENT ID" unFocusColor="#1e1b02">
+      <JFXTextField fx:id="txtStuId" focusColor="BLACK" labelFloat="true" layoutX="84.0" layoutY="178.0" prefHeight="25.0" prefWidth="179.0" promptText="STUDENT ID" unFocusColor="#1e1b02">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>

@@ -128,7 +128,7 @@ public class StudentFormController {
             /*Update customer*/
             try {
                 if (!existStudent(id)) {
-                    new Alert(Alert.AlertType.ERROR, "There is no such student associated with the id " + id).show();
+                    new Alert(Alert.AlertType.ERROR, "Sucessfully Updated..! " + id).show();
                 }
                 //Customer update
                 studentBO.updateStudent(new StudentDTO(id, name, email,contact,address,nic));
@@ -162,7 +162,7 @@ public class StudentFormController {
         txtContact.setDisable(true);
         txtAddress.setDisable(true);
         txtNic.setDisable(true);
-        txtStuId.setEditable(false);
+        txtStuId.setEditable(true);
         btnSaveStudent.setDisable(true);
         btnDeleteStudent.setDisable(true);
     }

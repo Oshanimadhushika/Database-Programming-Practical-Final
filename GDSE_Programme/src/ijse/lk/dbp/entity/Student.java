@@ -1,4 +1,4 @@
-package ijse.lk.dbp.model;
+package ijse.lk.dbp.entity;
 
 import lombok.*;
 

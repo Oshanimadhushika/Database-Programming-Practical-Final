@@ -38,12 +38,12 @@
             <Font name="Impact" size="20.0" />
          </font>
       </Button>
-      <JFXTextField fx:id="txtStuId" focusColor="#f5f6f8" labelFloat="true" layoutX="84.0" layoutY="178.0" prefHeight="25.0" prefWidth="179.0" promptText="CUSTOMER  ID" unFocusColor="#1e1b02">
+      <JFXTextField fx:id="txtStuId" focusColor="#f5f6f8" labelFloat="true" layoutX="84.0" layoutY="178.0" prefHeight="25.0" prefWidth="179.0" promptText="STUDENT ID" unFocusColor="#1e1b02">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
       </JFXTextField>
-      <JFXTextField fx:id="txtStuName" labelFloat="true" layoutX="84.0" layoutY="228.0" prefHeight="25.0" prefWidth="179.0" promptText="CUSTOMER  NAME" unFocusColor="#1e1b02">
+      <JFXTextField fx:id="txtStuName" labelFloat="true" layoutX="84.0" layoutY="228.0" prefHeight="25.0" prefWidth="179.0" promptText="STUDENT  NAME" unFocusColor="#1e1b02">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
@@ -83,7 +83,7 @@
             <TableColumn fx:id="colNic" prefWidth="114.0" text="Nic" />
          </columns>
       </TableView>
-      <Button fx:id="btnAddNewStudent" layoutX="41.0" layoutY="112.0" mnemonicParsing="false" onAction="#AddNewStudentOnAction" prefHeight="39.0" prefWidth="207.0" style="-fx-background-color: #009432;" text="+ ADD NEW CUSTOMER" textFill="#1e0303">
+      <Button fx:id="btnAddNewStudent" layoutX="41.0" layoutY="112.0" mnemonicParsing="false" onAction="#AddNewStudentOnAction" prefHeight="39.0" prefWidth="207.0" style="-fx-background-color: #009432;" text="+ ADD NEW Student" textFill="#1e0303">
          <font>
             <Font name="Impact" size="20.0" />
          </font>
